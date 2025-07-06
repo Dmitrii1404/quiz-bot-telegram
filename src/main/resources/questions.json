@@ -1,0 +1,79 @@
+[
+  {
+    "codeSnippet": "int a = 5;\nint b = 10;\nSystem.out.println(a + b);",
+    "task": "Что выведет этот код?",
+    "answers": ["15", "510", "Error"],
+    "correctAnswer": 0,
+    "description": "Он выведет 15, так как складываются два целых числа."
+  },
+  {
+    "codeSnippet": "String s1 = \"Hello\";\nString s2 = \"Hello\";\nSystem.out.println(s1 == s2);",
+    "task": "Что выведет этот код?",
+    "answers": ["true", "false", "Error"],
+    "correctAnswer": 0,
+    "description": "Выведет true, так как строковые литералы хранятся в String Pool и s1 и s2 ссылаются на один и тот же объект в памяти."
+  },
+  {
+    "codeSnippet": "int[] arr = {1, 2, 3};\nSystem.out.println(arr[3]);",
+    "task": "Что произойдет при выполнении этого кода?",
+    "answers": ["Выведет 3", "Выведет null", "ArrayIndexOutOfBoundsException"],
+    "correctAnswer": 2,
+    "description": "Произойдет ArrayIndexOutOfBoundsException, так как массив имеет индексы 0, 1, 2, а мы обращаемся к индексу 3."
+  },
+  {
+    "codeSnippet": "Integer a = 127;\nInteger b = 127;\nSystem.out.println(a == b);",
+    "task": "Что выведет этот код?",
+    "answers": ["true", "false", "Error"],
+    "correctAnswer": 0,
+    "description": "Выведет true, так как Integer кэширует значения от -128 до 127, и a и b ссылаются на один объект в кэше."
+  },
+  {
+    "codeSnippet": "String s = null;\nSystem.out.println(s.length());",
+    "task": "Что произойдет при выполнении этого кода?",
+    "answers": ["Выведет 0", "Выведет null", "NullPointerException"],
+    "correctAnswer": 2,
+    "description": "Произойдет NullPointerException, так как мы пытаемся вызвать метод length() на null-ссылке."
+  },
+  {
+    "codeSnippet": "int a = 10;\nint b = 3;\nSystem.out.println(a / b);",
+    "task": "Что выведет этот код?",
+    "answers": ["3.33", "3", "Error"],
+    "correctAnswer": 1,
+    "description": "Выведет 3, так как при делении двух целых чисел результат также целое число (дробная часть отбрасывается)."
+  },
+  {
+    "codeSnippet": "List<String> list = new ArrayList<>();\nlist.add(\"Java\");\nlist.add(\"Python\");\nSystem.out.println(list.get(1));",
+    "task": "Что выведет этот код?",
+    "answers": ["Java", "Python", "Error"],
+    "correctAnswer": 1,
+    "description": "Выведет Python, так как индексация в списке начинается с 0: get(0) вернет \"Java\", get(1) вернет \"Python\"."
+  },
+  {
+    "codeSnippet": "String s = \"Hello\" + null;\nSystem.out.println(s);",
+    "task": "Что выведет этот код?",
+    "answers": ["Hello", "Hellonull", "Error"],
+    "correctAnswer": 1,
+    "description": "Выведет Hellonull, так как при конкатенации строки с null, null преобразуется в строку \"null\"."
+  },
+  {
+    "codeSnippet": "boolean b = true;\nif (b = false) { System.out.println(\"True\");\n} else { System.out.println(\"False\");\n}",
+    "task": "Что выведет этот код?",
+    "answers": ["True", "False", "Error"],
+    "correctAnswer": 1,
+    "description": "Выведет False, так как в условии используется присваивание (=), а не сравнение (==). Переменной b присваивается false, и условие становится false."
+  },
+  {
+    "codeSnippet": "int x = 5;\nSystem.out.println(x++);\nSystem.out.println(x);",
+    "task": "Что выведет этот код?",
+    "answers": ["5, 6", "6, 6", "6, 7"],
+    "correctAnswer": 0,
+    "description": "Выведет 5, 6. Постфиксный инкремент x++ сначала возвращает текущее значение (5), а затем увеличивает переменную на 1."
+  },
+  {
+    "codeSnippet": "final List<String> list = new ArrayList<>();\nlist.add(\"Java\");\nlist = new ArrayList<>();",
+    "task": "Что произойдет при выполнении этого кода?",
+    "answers": ["Код выполнится успешно", "Compilation Error", "Runtime Error"],
+    "correctAnswer": 1,
+    "description": "Произойдет ошибка компиляции, так как переменная list объявлена как final, и ей нельзя присвоить новое значение после инициализации."
+  }
+]
