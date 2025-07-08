@@ -1,4 +1,4 @@
-package my.progect.quizbottelegram.model;
+package my.project.quizbottelegram.model;
 
 import lombok.Data;
 

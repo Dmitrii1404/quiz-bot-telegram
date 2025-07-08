@@ -1,4 +1,4 @@
-package my.progect.quizbottelegram.templates;
+package my.project.quizbottelegram.templates;
 
 import com.vdurmont.emoji.EmojiParser;
 

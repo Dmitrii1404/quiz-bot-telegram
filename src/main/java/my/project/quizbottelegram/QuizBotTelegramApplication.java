@@ -1,4 +1,4 @@
-package my.progect.quizbottelegram;
+package my.project.quizbottelegram;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;

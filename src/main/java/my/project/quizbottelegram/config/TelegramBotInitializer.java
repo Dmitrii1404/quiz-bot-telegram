@@ -1,8 +1,8 @@
-package my.progect.quizbottelegram.config;
+package my.project.quizbottelegram.config;
 
 
 import lombok.AllArgsConstructor;
-import my.progect.quizbottelegram.service.TelegramBotService;
+import my.project.quizbottelegram.service.TelegramBotService;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;

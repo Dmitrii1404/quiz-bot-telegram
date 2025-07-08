@@ -1,8 +1,8 @@
-package my.progect.quizbottelegram.constructor;
+package my.project.quizbottelegram.constructor;
 
 import lombok.AllArgsConstructor;
-import my.progect.quizbottelegram.model.Poll;
-import my.progect.quizbottelegram.templates.TextTemplate;
+import my.project.quizbottelegram.model.Poll;
+import my.project.quizbottelegram.templates.TextTemplate;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.polls.SendPoll;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;

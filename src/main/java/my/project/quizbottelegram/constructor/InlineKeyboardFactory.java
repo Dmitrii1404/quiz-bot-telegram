@@ -1,4 +1,4 @@
-package my.progect.quizbottelegram.constructor;
+package my.project.quizbottelegram.constructor;
 
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;

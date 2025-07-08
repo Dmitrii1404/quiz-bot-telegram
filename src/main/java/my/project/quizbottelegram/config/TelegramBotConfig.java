@@ -1,4 +1,4 @@
-package my.progect.quizbottelegram.config;
+package my.project.quizbottelegram.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

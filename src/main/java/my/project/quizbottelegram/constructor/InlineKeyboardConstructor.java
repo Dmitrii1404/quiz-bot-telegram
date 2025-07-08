@@ -1,8 +1,8 @@
-package my.progect.quizbottelegram.constructor;
+package my.project.quizbottelegram.constructor;
 
 import lombok.AllArgsConstructor;
-import my.progect.quizbottelegram.templates.CallbackData;
-import my.progect.quizbottelegram.templates.TextTemplate;
+import my.project.quizbottelegram.templates.CallbackData;
+import my.project.quizbottelegram.templates.TextTemplate;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;

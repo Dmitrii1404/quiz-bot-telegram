@@ -1,9 +1,9 @@
-package my.progect.quizbottelegram.constructor.poll.factory;
+package my.project.quizbottelegram.constructor.poll.factory;
 
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import my.progect.quizbottelegram.model.Poll;
+import my.project.quizbottelegram.model.Poll;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

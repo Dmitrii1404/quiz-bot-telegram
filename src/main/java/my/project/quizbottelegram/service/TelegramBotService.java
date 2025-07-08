@@ -1,15 +1,15 @@
-package my.progect.quizbottelegram.service;
+package my.project.quizbottelegram.service;
 
 
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import my.progect.quizbottelegram.config.TelegramBotConfig;
-import my.progect.quizbottelegram.constructor.MessageConstructor;
-import my.progect.quizbottelegram.constructor.poll.factory.JavaPollFactory;
-import my.progect.quizbottelegram.constructor.poll.factory.PollFactory;
-import my.progect.quizbottelegram.model.Poll;
-import my.progect.quizbottelegram.templates.CallbackData;
+import my.project.quizbottelegram.config.TelegramBotConfig;
+import my.project.quizbottelegram.constructor.MessageConstructor;
+import my.project.quizbottelegram.constructor.poll.factory.JavaPollFactory;
+import my.project.quizbottelegram.constructor.poll.factory.PollFactory;
+import my.project.quizbottelegram.model.Poll;
+import my.project.quizbottelegram.templates.CallbackData;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.CallbackQuery;
